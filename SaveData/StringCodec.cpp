@@ -7,9 +7,7 @@
 //
 
 #include "StringCodec.h"
-#include "base64.h"
 #include <sstream>
-#include "stlencoders/base32.hpp"
 #include "stlencoders/base16.hpp"
 #include "McbDES2.hpp"
 #include <vector>
