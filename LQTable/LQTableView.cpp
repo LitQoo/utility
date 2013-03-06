@@ -10,7 +10,6 @@
 
 bool LQTableView::init(float x, float y, float width, float height, CCObject *_target,SEL_CallTableCell _selector)
 {
-    
 #if COCOS2D_VERSION < 0x00020000
     if(!CCLayerColor::initWithColorWidthHeight(ccc4f(0, 0, 0, 0), width, height)){
 #else
